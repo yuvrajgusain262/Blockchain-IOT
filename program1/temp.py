@@ -25,3 +25,6 @@ def generate_json():
     # Save JSON data to file
     with open(r'D:\python\iot blockchain\data.json', 'w') as f:
         json.dump(data, f, indent=4)
+        
+# Generate JSON data
+    generate_json()
